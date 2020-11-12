@@ -1,3 +1,5 @@
+
+
 const budget = {
     myBudget: [
         {
@@ -53,20 +55,25 @@ function aZ() {
     generateTable(newArray);
 }
 
+aZ();
+
 function zA() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.title < b.title) ? 1 : - 1);
     generateTable(newArray);
 }
+zA();
 
 function biggerBudget() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.budget < b.budget) ? 1 : - 1);
     generateTable(newArray);
 }
+biggerBudget();
 
 function smallerBudget() {
     const newArray = [...budget.myBudget];
     newArray.sort((a, b) => (a.budget > b.budget) ? 1 : - 1);
     generateTable(newArray);
 }
+smallerBudget();

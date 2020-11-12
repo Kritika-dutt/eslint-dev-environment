@@ -1,0 +1,26 @@
+{
+  "name": "eslint-dev-environment",
+  "version": "1.0.0",
+  "description": "\"# unit-testingg-jestt\"",
+  "main": "index.js",
+  "scripts": {
+    
+    "Lint" : "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kritika-dutt/unit-testingg-jestt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kritika-dutt/unit-testingg-jestt/issues"
+  },
+  "homepage": "https://github.com/Kritika-dutt/unit-testingg-jestt#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}
