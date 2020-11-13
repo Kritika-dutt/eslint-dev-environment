@@ -1,4 +1,11 @@
+const restify = require('restify');
 
+//require.eslint (import/newline-after-import)
+const PORT = 5000;
+const app = restify.createServer();
+app.get('/', (req, res) =>
+res.send({ hello: 'World' }));
+app.listen(PORT);
 
 const budget = {
     myBudget: [

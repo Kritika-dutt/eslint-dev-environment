@@ -4,8 +4,8 @@
   "description": "\"# unit-testingg-jestt\"",
   "main": "index.js",
   "scripts": {
-    
-    "Lint" : "eslint ./"
+    "Lint": "eslint ./",
+    "prettier": "prettier ./"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,13 @@
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
     "eslint": "^7.13.0",
-    "eslint-plugin-react": "^7.21.5"
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "editorconfig": "^0.15.3",
+    "restify": "^8.5.1"
   }
 }
